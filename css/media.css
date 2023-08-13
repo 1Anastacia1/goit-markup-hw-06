@@ -18,6 +18,9 @@
     .customers-div>.container{
       min-width: 738px;
    }
+   .container-icon-team>.container{
+    min-width: 552px ;
+   }
 
 .title-icon{
   background-image: linear-gradient(
@@ -58,9 +61,13 @@ justify-content: flex-start;
 }
 
 
+.our-team-img{
+  padding-left: 108px;
 
+}
 .li-our-team-text-pic{
-max-width:calc((100% - 24px)/2);
+max-width:calc((100% - 24px) /2);
+gap: 64px 24px;
 }
 
 
@@ -91,7 +98,6 @@ max-width: 1166px;
 }
 .container-icon-team>.container{
   min-width: 552px;
-  
 }
 
 .title-icon{
@@ -130,8 +136,22 @@ font-weight: 400;
 }
 
 
+.our-team-img{
+  display: flex;
+  align-items: center;
+}
+.ul-our-team-img-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 .li-our-team-text-pic{
+
   max-width:calc((100% - 24px)/4);
+  margin: 64px 24px;
+
+
   }
 
 .li-customers{
