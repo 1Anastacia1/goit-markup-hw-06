@@ -582,6 +582,7 @@ height: 40px;
 fill: #f4f4fd;
 border-radius: 50%;
 background-color:  var(--iris, #4D5AE5);
+gap:72px;
 }
 .our-team-link {
 width:100%;
