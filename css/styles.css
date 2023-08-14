@@ -257,10 +257,8 @@ min-width: 156px;
 
 }
 .mob-menu-item{
-  display: flex;
-  flex-direction: column;
-  
-  gap: 40px;
+
+padding:40px;
 }
 .mob-menu-link{
   font-family:'Roboto', sans-serif;
