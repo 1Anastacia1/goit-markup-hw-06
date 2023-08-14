@@ -216,20 +216,11 @@ margin-left: auto;
 
 }
 .menu-open-click{
-display: block;
-fill: #2E2F42;
-background-color: #FFFFFF;
+
+stroke: #2E2F42;
+background-color: transparent;
 }
 
-.div-mob-contact-menu{
-
-margin-bottom: 48px;
-display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 40px;
-
-}
 
 .mob-menu{
 position: fixed;
@@ -249,7 +240,6 @@ overflow: auto;
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
-
 }
 .menu-close-btn-svg{
 width: 8px;
@@ -260,7 +250,6 @@ min-width: 156px;
 
 }
 .mob-menu-item{
-
 padding:40px;
 }
 .mob-menu-link{
@@ -276,7 +265,14 @@ padding:40px;
 .mob-menu-link:hover{
   color: var(--ocean, #404BBF);
 }
-
+.div-mob-contact-menu{
+padding-top: 48px;
+margin-bottom: 40px;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
 .mob-contact{
 
 }
@@ -293,7 +289,7 @@ gap: 40px;
 .mob-contact-link-tel{
 text-decoration: none;
   color: var(--iris, #4D5AE5);
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02px;
