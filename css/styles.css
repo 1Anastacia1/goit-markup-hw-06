@@ -213,7 +213,9 @@ color: #404bbf;
 margin-left: auto;
 
 }
+.menu-open-click{
 
+}
 
 .div-mob-contact-menu{
 min-width: 353px;
@@ -281,8 +283,9 @@ gap: 40px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   text-transform: capitalize;
+display: flex;
 }
 .mod-contact-link-gmail{
   color: var(--slate, #434455);
@@ -301,7 +304,7 @@ gap: 40px;
 .ul-mob-icon-contact{
   display: flex;
   justify-content:center;
-  gap: 56px;
+ gap: 56px;
   margin-top: 48px;
 }
 
