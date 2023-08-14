@@ -142,6 +142,8 @@ position: relative;
 list-style:none;
 display: flex;
 align-items: center;
+width: 100%;
+height: 70px;
 
 }
 .header-container{
@@ -214,7 +216,9 @@ margin-left: auto;
 
 }
 .menu-open-click{
-
+display: block;
+fill: #2E2F42;
+background-color: #FFFFFF;
 }
 
 .div-mob-contact-menu{
@@ -230,7 +234,7 @@ z-index: 20;
 width: 100vw;
 height: 100vh;
 background-color: var(--white, #FFF);
-padding: 40px;
+padding: 24px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -241,19 +245,22 @@ overflow: auto;
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
-}
-.menu-close-btn-svg{
-
-width: 24px;
+  width: 24px;
 height: 24px;
 }
+.menu-close-btn-svg{
+width: 8px;
+height: 8px;
+}
 .mob-menu-list{
-
+min-width: 156px;
 
 }
 .mob-menu-item{
-
-padding:40px;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 40px;
 }
 .mob-menu-link{
   font-family:'Roboto', sans-serif;
@@ -264,6 +271,9 @@ padding:40px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.mob-menu-link:hover{
+  color: var(--ocean, #404BBF);
 }
 
 .mob-contact{
@@ -285,7 +295,6 @@ gap: 40px;
   line-height: 1.11;
   letter-spacing: -0.02em;
   text-transform: capitalize;
-display: flex;
 }
 .mod-contact-link-gmail{
   color: var(--slate, #434455);
@@ -303,8 +312,8 @@ display: flex;
 }
 .ul-mob-icon-contact{
   display: flex;
-  justify-content:center;
- gap: 56px;
+  flex-wrap: nowrap;
+  justify-content:space-between;
   margin-top: 48px;
 }
 
