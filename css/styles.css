@@ -222,8 +222,12 @@ background-color: #FFFFFF;
 }
 
 .div-mob-contact-menu{
-min-width: 353px;
+
 margin-bottom: 48px;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
 
 }
 
@@ -234,7 +238,7 @@ z-index: 20;
 width: 100vw;
 height: 100vh;
 background-color: var(--white, #FFF);
-padding: 24px;
+padding: 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -245,8 +249,7 @@ overflow: auto;
   margin-left: auto;
   margin-bottom: 32px;
   border-radius: 50%;
-  width: 24px;
-height: 24px;
+
 }
 .menu-close-btn-svg{
 width: 8px;
@@ -282,19 +285,22 @@ display: inline-flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 40px;
+
 }
 .mob-contact-soc-item-li{
 
 }
 .mob-contact-link-tel{
+text-decoration: none;
   color: var(--iris, #4D5AE5);
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: -0.02em;
-  text-transform: capitalize;
+  letter-spacing: 0.02px;
+  text-transform: capitalize;  
 }
 .mod-contact-link-gmail{
+
   color: var(--slate, #434455);
   font-size: 20px;
   font-style: normal;
