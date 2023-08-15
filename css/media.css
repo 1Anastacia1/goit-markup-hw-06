@@ -39,8 +39,30 @@ background-image: linear-gradient(
   url(../images/2x/fon-title-tablet-2x.jpg);
   }
 }
+.header-menu{
+  display: flex;
+}
+.header-contact-list-container{
+padding:16px ;
+}
+.header-contact-soc-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+gap: 12px;
+}
+.header-contact-soc-list{
+gap: 12px;
 
+}
+.header-contact-soc-link{
+padding: 0;
 
+}
+
+.mob-menu-container-hamburger{
+display: none;
+}
 .caption-section{
 padding-top: 96px;
 padding-bottom: 96px;
@@ -84,9 +106,20 @@ width: 168px;
   gap: 24px;
 }
 
-
-
-
+.footer-container{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  
+  }
+  .footer-logo{
+  
+  }
+  .footer-form-div{
+  
+  }
 
 
 }
@@ -117,7 +150,14 @@ background-image: linear-gradient(
   url(../images/2x/fon-title-desktop-2x.jpg);
   }
 }
+.header-contact-soc-list{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  }
+  .header-list{
 
+  }
 .caption-text-li{
 width: calc((100% - 72px) / 4);
 }
@@ -167,6 +207,21 @@ font-weight: 400;
     }
 
 
+
+/* .footer-container{
+display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-direction: row;
+
+}
+.footer-logo{
+
+}
+.footer-form-div{
+
+} */
 
 
 

@@ -143,7 +143,7 @@ list-style:none;
 display: flex;
 align-items: center;
 width: 100%;
-height: 70px;
+
 
 }
 .header-container{
@@ -212,13 +212,14 @@ color: #404bbf;
 color: #404bbf;
 }
 .menu-open-btn{
-display: inline;
+display: flex;
 align-items: center;
 margin-left: auto;
 min-width: 32px;
 height: 22px;
 padding-top: 24px;
 padding-bottom: 24px;
+background-color: transparent;
 }
 .menu-close-btn::after{
 content:"";
@@ -226,6 +227,7 @@ width: 100%;
 bottom: 2px;
 }
 .menu-open-click{
+
 fill: var(--navyblue, #2E2F42);
 background-color: transparent;
 }
@@ -245,7 +247,11 @@ background-color: #ffffff;
 
 }
 .mob-menu-container{
+height: 100%;
 padding: 24px 24px 40px 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 
 }
 .menu-close-btn{
@@ -282,9 +288,8 @@ margin-bottom: 50px;
 }
 .div-mob-contact-menu{
 margin-bottom: 40px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+margin-top: auto;
+
 
 }
 .mob-contact{
@@ -661,6 +666,9 @@ background: var(--cloud, #F4F4FD);
 padding-top:96px;
 padding-bottom: 96px;
 }
+.container-icon-team{
+
+}
 .our-team-heading-img{
 font-weight:700;
 font-size: 36px;
@@ -942,10 +950,13 @@ padding:100px 0;
 .foter-container{
 display: flex;
 align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
 
 }
 .footer-container-icon{
-
+padding-bottom: 72px;
 }
 .footer-logo{
 margin-bottom: 16px;
@@ -956,8 +967,9 @@ font-size:18px;
 font-weight:800;
 letter-spacing:0.03em;
 text-transform: uppercase;
-display: inline-block;
+display: flex;
 text-align: center;
+justify-content: center;
 }
 
 .link-studio{
@@ -987,8 +999,10 @@ letter-spacing: 0.32px;
 display:flex ;
 line-height: 1.5;
 margin-bottom: 16px;
+justify-content: center;
 }
 .div-footer-icon-div{
+  padding-bottom: 72px;
 }
 .ul-footer-icon{
 display: flex;
@@ -1021,12 +1035,14 @@ width: 24px;
 height: 24px;
 }
 .footer-form-div{
-display:block;
-align-items: center;
-margin-left: auto;
+  width: 100%;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: flex-start;
 }
 .footer-slogan{
 display: flex;
+justify-content: center;
 align-items: center;
 color: var(--white, #FFF);
 font-size: 16px;
@@ -1037,6 +1053,7 @@ margin-bottom: 16px;
 }
 .footer-email-form{
 display: flex;
+flex-direction: column;
 gap: 24px;
 }
 
@@ -1045,7 +1062,7 @@ gap: 24px;
 
 }
 .footer-input{
-width: 264px;
+width: 100%;
 height: 40px;
 color: var(--white, #FFF);
 font-size: 12px;
@@ -1066,25 +1083,27 @@ color: #FFF;
 
 }
 ::placeholder{
-color: #fff;
+color: var(--white, #FFF);
 }
 .button-footer-form{
-  display: flex;
-  /* flex-wrap: wrap; */
+display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  min-width: 165px;
+  width: 165px;
+  height: 40px;
   color: var(--white, #FFF);
   text-align: center;
   border-radius: 4px;
   background: var(--iris, #4D5AE5);
-  /* display: inline-flex; */
   padding: 8px 24px;
   font-size: 16px;
   font-weight: 500;
   line-height:1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
   }
   .icon-frame{
   margin-left:16px;
