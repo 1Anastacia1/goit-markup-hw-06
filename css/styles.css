@@ -941,14 +941,13 @@ padding:100px 0;
 }
 .foter-container{
 display: flex;
-flex-wrap: wrap;
+align-items: center;
 
 }
 .footer-container-icon{
 
 }
 .footer-logo{
-align-items: center;
 margin-bottom: 16px;
 color: var(--iris, #4d5ae5);
 font-family:'Raleway',sans-serif;
@@ -958,6 +957,7 @@ font-weight:800;
 letter-spacing:0.03em;
 text-transform: uppercase;
 display: inline-block;
+text-align: center;
 }
 
 .link-studio{
@@ -984,7 +984,7 @@ display: block;
 color: var(--white, #FFF);
 font-weight: 500;
 letter-spacing: 0.32px;
-display: flex;
+display:flex ;
 line-height: 1.5;
 margin-bottom: 16px;
 }
@@ -1070,6 +1070,7 @@ color: #fff;
 }
 .button-footer-form{
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
   min-width: 165px;
@@ -1077,9 +1078,8 @@ color: #fff;
   text-align: center;
   border-radius: 4px;
   background: var(--iris, #4D5AE5);
-  display: inline-flex;
+  /* display: inline-flex; */
   padding: 8px 24px;
-  
   font-size: 16px;
   font-weight: 500;
   line-height:1.5; /* 150% */
