@@ -42,6 +42,9 @@ background-image: linear-gradient(
 .header-menu{
   display: flex;
 }
+.header-logo{
+  margin-right: 76px;
+}
 .header-contact-list-container{
 padding:16px ;
 }
@@ -51,6 +54,8 @@ flex-wrap: wrap;
 justify-content: flex-end;
 gap: 12px;
 }
+
+
 .header-contact-soc-list{
 gap: 12px;
 
@@ -59,6 +64,7 @@ gap: 12px;
 padding: 0;
 
 }
+
 
 .mob-menu-container-hamburger{
 display: none;
@@ -143,6 +149,13 @@ margin-left: 0;
 margin-right: 0;
 }
 
+
+/* .mob-menu-container-hamburger{
+  display: none;
+  }
+   */
+
+
 }
 
 
@@ -152,7 +165,9 @@ max-width: 1166px;
 }
 .container-icon-team>.container{
   min-width: 552px;
+  margin-left: 156px;
 }
+
 
 .title-icon{
 background-image: linear-gradient(
@@ -176,8 +191,12 @@ display: flex;
 flex-wrap: nowrap;
 justify-content: flex-end;
 gap: 40px;
-margin-left: auto;
-
+  }
+  .header-list{
+    padding-right: 300px;
+  }
+  .header-logo{
+    margin-right: 76px;
   }
   .header-contact-list-container{
 
