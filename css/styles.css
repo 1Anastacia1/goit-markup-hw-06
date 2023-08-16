@@ -870,12 +870,12 @@ flex-direction: column;
 flex-wrap: wrap;
 column-gap:24px;
 row-gap:48px;
-align-content: center;
+align-items: center;
 justify-content: center;
 }
 .picture-list-item-animation  {
 
-width:calc((100% - 48px)/3);
+/* width:calc((100% - 48px)/3); */
 border-radius: 1px;
 background: var(--white, #fff);
 position: relative;
