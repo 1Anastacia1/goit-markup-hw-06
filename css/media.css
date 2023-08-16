@@ -66,12 +66,21 @@ gap: 12px;
 
 .header-contact-soc-list{
 gap: 12px;
-
 }
 .header-contact-soc-link{
 padding: 0;
-
 }
+
+
+
+.navigation{
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+}
+
+
+
 
 
 
@@ -119,6 +128,9 @@ width: 168px;
   gap: 24px;
   padding-bottom: 96px;
 }
+
+
+
 
 .footer-container{
   display: flex;
@@ -256,16 +268,15 @@ font-weight: 400;
   width: calc((100% - 144px)/6);
   min-width: 168px;
 }
-.customers-div{
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .caption-list{ 
   padding: 0;
   gap: 72px 24px;
     }
 
-
+.picture-text-list{
+  flex-direction: row;
+}
 
 
 .footer-container{
