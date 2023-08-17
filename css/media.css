@@ -275,7 +275,13 @@ font-weight: 400;
     }
 
 .picture-text-list{
+  width: calc((100% - 24) /2);
+  display: inline-flex;
   flex-direction: row;
+}
+.picture-list-item-animation  {
+  width:calc((100% - 48px)/3);
+
 }
 
 
