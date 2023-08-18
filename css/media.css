@@ -183,7 +183,7 @@ display: none;
 }
 
 
-@media screen and (min-width:1158px) {
+@media screen and (min-width:1440px) {
 .container{
 max-width: 1160px;
 }
@@ -192,16 +192,16 @@ max-width: 1160px;
   margin-left: 156px;
 }
 .container-heading-img{
-min-width: 1400px;
+max-width: 1144px;
 }
 .header-container{
-  min-width: 1128px;
+  min-width: 1144px;
 }
 .container-icon-team{
-min-width: 1140px;
+min-width: 1144px;
 }
 .customers-div{
-  max-width: 1140px;
+max-width: 1144px;
 }
 .title-icon{
 background-image: linear-gradient(
@@ -289,8 +289,8 @@ justify-content: center;
 flex-wrap: nowrap;
   }
 .li-customers{
-  width: calc((100% - 144px)/6);
-  min-width: 168px;
+  width: calc((100% - 120px)/6);
+  max-width: 168px;
 }
 
 .caption-list{ 
@@ -310,13 +310,14 @@ flex-wrap: nowrap;
 
 
 .footer-container{
-max-width: 1144px;
+min-width: 1144px;
 display: flex;
 flex-wrap: nowrap;
 align-items: flex-start;
+gap: 80px;
   }
 .footer-container-icon{
-padding-right: 120px;
+padding-right: 40px;
 padding-bottom: 0;
   }
   .footer-logo{
@@ -330,7 +331,6 @@ width: 264px;
 .div-footer-icon-div{
 display: inline-block;
 padding-bottom: 0;
-margin-right: 80px;
   }
 
   .footer-form-div{
