@@ -8,27 +8,36 @@
 }
 
   
-  @media screen and (min-width:768px) {
-    .container{
-      max-width: 753px;
-      padding: 0 16px;
-    }
-    .container-div{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      
-      }
-    .customers-div>.container{
-      min-width: 738px;
+ @media screen and (min-width:768px) {
+.container{
+
+min-width: 584px;
+padding: 0 16px;
+}
+
+.header-container{
+  min-width: 752px;
+}
+.container-div{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.customers-div>.container{
+max-width: 552px;
    }
-   .container-icon-team>.container{
-    min-width: 552px ;
+.container-icon-team>.container{
+min-width: 584px;
    }
-   .customers-div>.container{
-    min-width: 428px;
- 
-    }
+
+.footer-container{
+max-width: 584px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+column-gap: 24px;
+}
+
 
 .title-icon{
   background-image: linear-gradient(
@@ -59,14 +68,11 @@ padding:16px ;
 .header-contact-soc-list{
 display: flex;
 flex-wrap: wrap;
-justify-content: flex-end;
+flex-direction: column;
 gap: 12px;
+padding-left: 122px;
 }
 
-
-.header-contact-soc-list{
-gap: 12px;
-}
 .header-contact-soc-link{
 padding: 0;
 }
@@ -105,7 +111,12 @@ justify-content: flex-start;
 
 
 .ul-our-team-img-text{
-padding-left: 108px;
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+column-gap: 24px;
+row-gap: 64px;
 }
 .li-our-team-text-pic{
 max-width:calc((100% - 24px) /2);
@@ -132,25 +143,18 @@ width: 168px;
 
 
 
-.footer-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  flex-direction: row;
-  }
+
   .footer-logo{
 display: block;
 text-align: left;
-  }
+}
 .div-footer-icon-div{
 
   }
   .div-footer-icon-div{
   padding-bottom: 104px;
   }
-  .footer-form-div{
-  padding-left: 108px;
-  }
+
   .footer-email-form{
 flex-direction: row;
   }
@@ -181,14 +185,24 @@ display: none;
 
 @media screen and (min-width:1158px) {
 .container{
-max-width: 1166px;
+max-width: 1160px;
 }
 .container-icon-team>.container{
   min-width: 552px;
   margin-left: 156px;
 }
-
-
+.container-heading-img{
+min-width: 1400px;
+}
+.header-container{
+  min-width: 1128px;
+}
+.container-icon-team{
+min-width: 1140px;
+}
+.customers-div{
+  max-width: 1140px;
+}
 .title-icon{
 background-image: linear-gradient(
   rgba(46, 47, 66, 0.7), 
@@ -206,24 +220,23 @@ background-image: linear-gradient(
   url(../images/2x/fon-title-desktop-2x.jpg);
   }
 }
+
+.title{
+font-size:56px;
+}
+
 .header-contact-soc-list{
 display: flex;
+flex-direction: row;
 flex-wrap: nowrap;
-justify-content: flex-end;
-gap: 40px;
+padding-left: 0;
   }
   .header-list{
-    padding-right: 300px;
+ padding-right: 300px; 
   }
   .header-logo{
     margin-right: 76px;
   }
-  .header-contact-list-container{
-
-  }
-.header-container{
-
- }
 .menu-open-btn{
 display: none;
 }
@@ -245,6 +258,15 @@ font-weight: 400;
 }
 
 
+.heading-img-pic{
+display: flex;
+}
+.heading-caption{
+display: flex;
+justify-content: center;
+}
+
+
 .our-team-img{
   display: flex;
   align-items: center;
@@ -254,16 +276,18 @@ font-weight: 400;
   align-items: center;
   justify-content: center;
   padding-left: 0;
+  gap: 24px;
 
 }
 .li-our-team-text-pic{
 
   max-width:calc((100% - 24px)/4);
-  margin: 64px 24px;
 
 
   }
-
+.ul-customers{
+flex-wrap: nowrap;
+  }
 .li-customers{
   width: calc((100% - 144px)/6);
   min-width: 168px;
@@ -286,6 +310,7 @@ font-weight: 400;
 
 
 .footer-container{
+max-width: 1144px;
 display: flex;
 flex-wrap: nowrap;
 align-items: flex-start;
