@@ -560,7 +560,8 @@ cursor:pointer;
 
 /*section-2*/
 .caption-section{
-padding: 96px 15px;
+padding-top: 96px;
+padding-bottom: 96px;
 }
 
 .caption-list{
